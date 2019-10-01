@@ -13,7 +13,7 @@
 template <class>
 class task;
 
-#define SMALL_OBJECT_OPT
+//#define SMALL_OBJECT_OPT
 
 #ifndef SMALL_OBJECT_OPT
 

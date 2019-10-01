@@ -8,7 +8,11 @@ int main() {
         return move(_p);
     };
 
+    task<int(int)> square = [](int i) { return i * i;};
+
     std::cout << *f() << std::endl;
+
+    std::cout << square(4) << std::endl;
 
     return 0;
 }
